@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding-top: 800px;
+    text-align: center;
 }
 
 .profile {
@@ -32,6 +33,7 @@ h1 {
     font-size: 30px;
     font-family: 'Lato', sans-serif;
     font-weight: 300;
+    
 }
 
 #name {
@@ -54,7 +56,7 @@ h2 {
 
 .line {
     height: 6px;
-    background-color: mediumaquamarine;
+    background-color: limegreen;
     width: 70px;
     margin: 8px auto;
 }
@@ -96,7 +98,18 @@ p {
     background-color:limegreen;
     
 }
-
+html{
+    scroll-behavior: smooth;
+    
+}
+a{
+    text-decoration: none;
+    font-size: 50px;
+}
+.article:hover{
+    color: seagreen;
+    
+}
 
 
 
